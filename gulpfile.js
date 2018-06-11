@@ -8,6 +8,7 @@ var minCss = require('gulp-clean-css')
 var url = require('url');
 var fs = require('fs');
 var path = require('path');
+
 //起服务
 gulp.task('server', function() {
     gulp.src('src')
